@@ -406,6 +406,6 @@ blocks:
     _template: photoCards
 meta:
   pageTitle: Scaling Filecoin
-  pageDescription: test
+  pageDescription: Scaling Filecoin
 ---
 
