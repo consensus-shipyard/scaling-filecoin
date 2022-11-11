@@ -198,7 +198,7 @@ blocks:
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
-    navigationLabel: Events
+    navigationLabel: Roadmap
     _template: eventList
   - style:
       textAlignment: text-left
