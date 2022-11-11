@@ -183,8 +183,8 @@ blocks:
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     items:
-      - eventDate: Aug 2022
-        eventName: Event Name
+      - eventDate: Nov 2022
+        eventName: 'M1: Spacenet launches with Mir/ISS'
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
