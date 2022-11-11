@@ -188,13 +188,13 @@ blocks:
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
-      - eventDate: Aug 2022
-        eventName: Event Name
+      - eventDate: 'Feb 2023 '
+        eventName: 'M2: IPC deployed onto Spacenet'
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
-      - eventDate: Aug 2022
-        eventName: Event Name
+      - eventDate: End 2023
+        eventName: 'M3: IPC and Mir on Filecoin mainnet'
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
