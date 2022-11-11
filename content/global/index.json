@@ -16,10 +16,10 @@
     "black": "#000000"
   },
   "fonts": {
-    "font1": "Suisse Intl",
-    "font2": "Suisse Intl",
-    "font3": "Suisse Intl",
-    "font4": "Suisse Intl"
+    "font1": "Source Sans Pro:wght@400;700",
+    "font2": "Source Sans Pro:wght@400;700",
+    "font3": "Source Sans Pro:wght@400;700",
+    "font4": "Source Sans Pro:wght@400;700"
   },
   "sizeLeading": {
     "textXs": "14/21",
