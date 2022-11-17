@@ -195,28 +195,24 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: '+000'
+      - headline: '???'
         subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+        text: |
+          Trantor subnet time to finality
         link: ''
         buttonLabel: ''
-      - headline: 00%
+      - headline: '???'
         subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+        text: |
+          Trantor subnet TPS
+      - headline: 1000s
+        subhead: ''
+        text: |
+          Number of subnets supported
       - headline: '+000'
         subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - headline: 00%
-        subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+        text: |
+          Something else?
     navigationLabel: Numbers area
     _template: textCards
   - style:
