@@ -348,6 +348,19 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
+        headline: Spacenet
+        text: >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt.
+        link: ''
+        buttonLabel: ''
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
         headline: Spec
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -361,7 +374,7 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Lorem ipsum
+        headline: Discussions
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
@@ -374,20 +387,7 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Lorem ipsum
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Lorem ipsum
+        headline: FIP
         subhead: ''
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
