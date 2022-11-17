@@ -22,8 +22,7 @@ blocks:
     label: ''
     headline: Scaling Filecoin
     subhead: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna.
+      Interplanetary consensus is the next frontier in blockchain scalability, unlocking unmatched capacity and new use cases.
     body: ''
     buttons:
       - label: Lorem Ipsum
