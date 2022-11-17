@@ -341,14 +341,14 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
       position: object-left-bottom
     label: ''
-    headline: Sed ut perspiciatis unde omnis iste
+    headline: Dive in
     subhead: ''
     body: ''
     items:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Lorem ipsum
+        headline: Spec
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
