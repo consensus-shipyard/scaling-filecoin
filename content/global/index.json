@@ -101,8 +101,9 @@
       "body": "",
       "items": [
         {
-          "headline": "Filecoin is an open-source cloud storage marketplace, protocol, and incentive layer.",
-          "text": ""
+          "headline": "",
+          "text": "![](https://res.cloudinary.com/protocolai/image/upload/v1668728636/ConsensusLab-logo-vert-white_2x_galhif.png)\n",
+          "link": "https://consensuslab.world/"
         },
         {
           "headline": "",
