@@ -22,12 +22,9 @@ blocks:
     label: ''
     headline: Scaling Filecoin
     subhead: >-
-      Interplanetary consensus is the next frontier in blockchain scalability, unlocking unmatched capacity and new use cases.
+      Interplanetary consensus is the next frontier in blockchain scalability,
+      unlocking unmatched capacity and enabling new use cases.
     body: ''
-    buttons:
-      - label: Lorem Ipsum
-        link: 'https://github.com/pathfindertools/microgen'
-        type: primary
     _template: feature
   - style:
       textAlignment: text-center
