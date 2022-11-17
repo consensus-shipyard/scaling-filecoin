@@ -107,18 +107,18 @@
         },
         {
           "headline": "",
-          "subhead": "",
-          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&#x20;\n"
+          "subhead": "Reach out",
+          "text": "Slack\n\nGitHub\n"
         },
         {
           "headline": "",
-          "subhead": "",
-          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&#x20;\n"
+          "subhead": "GitHub",
+          "text": "Spacenet\n\nMir\n\nConsensusLab\n"
         },
         {
           "headline": "",
-          "subhead": "",
-          "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium&#x20;\n"
+          "subhead": "Resources",
+          "text": "Spec\n\nFIP\n\nDiscussions\n"
         }
       ],
       "_template": "textCards"
