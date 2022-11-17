@@ -27,35 +27,6 @@ blocks:
     body: ''
     _template: feature
   - style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: 'pt-20 pb-24 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
-      width: normal
-      labelStyles: 'text-primary undefined text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-5xl mb-10 '
-      subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-16 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: from-accent2 to-accent3 bg-gradient-to-r
-    label: ''
-    headline: Sed ut perspiciatis unde omnis iste
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    buttons:
-      - label: Lorem Ipsum
-        link: ''
-        type: secondary
-    navigationLabel: Banner
-    _template: banner
-  - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
       padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
