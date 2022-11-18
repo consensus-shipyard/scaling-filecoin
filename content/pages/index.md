@@ -365,7 +365,7 @@ blocks:
           qui ratione voluptatem sequi nesciunt.
         link: ''
         buttonLabel: ''
-    navigationLabel: Photo Cards
+    navigationLabel: Resources
     _template: photoCards
 meta:
   pageTitle: Scaling Filecoin
