@@ -88,8 +88,8 @@
         "borderStyles": "border-gray undefined-0",
         "labelStyles": "text-primary font-1 text-sm mb-0 ",
         "headlineStyles": "text-primary font-1 text-2xl mb-3 ",
-        "subheadStyles": "text-primary font-1 text-lg mb-3 ",
-        "textStyles": "text-primary font-1 text-base mb-0 ",
+        "subheadStyles": "text-primary font-1 text-lg mb-3 font-bold",
+        "textStyles": "text-primary font-1 text-xs mb-0 ",
         "buttonType": "primary"
       },
       "background": {
@@ -102,13 +102,13 @@
       "items": [
         {
           "headline": "",
-          "text": "![](https://res.cloudinary.com/protocolai/image/upload/v1668728636/ConsensusLab-logo-vert-white_2x_galhif.png)\n",
+          "text": "![](https://res.cloudinary.com/protocolai/image/upload/v1668728636/ConsensusLab-logo-vert-white\\_2x\\_galhif.png \"\")\n",
           "link": "https://consensuslab.world/"
         },
         {
           "headline": "",
           "subhead": "Reach out",
-          "text": "Slack\n\nGitHub\n"
+          "text": "[Slack](https://filecoin.io/slack)\n\nGitHub\n"
         },
         {
           "headline": "",
