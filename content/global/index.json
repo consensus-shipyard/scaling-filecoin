@@ -118,7 +118,7 @@
         {
           "headline": "",
           "subhead": "Resources",
-          "text": "Spec\n\nFIP\n\nDiscussions\n"
+          "text": "Spec\n\n[FIP](https://github.com/filecoin-project/FIPs/discussions/419)\n\nDiscussions\n"
         }
       ],
       "_template": "textCards"
