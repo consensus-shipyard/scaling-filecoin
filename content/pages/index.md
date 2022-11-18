@@ -279,7 +279,7 @@ blocks:
         subhead: ''
         text: |
           Something else?
-    navigationLabel: Numbers area
+    navigationLabel: ''
     _template: textCards
   - style:
       textAlignment: text-left
