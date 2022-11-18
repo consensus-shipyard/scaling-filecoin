@@ -57,7 +57,7 @@ blocks:
       - label: Button Label
         link: /
         type: primary
-    navigationLabel: Alternating text/img
+    navigationLabel: ''
     _template: feature
   - style:
       alignment: 'flex-row text-left items-center items-start-vertical '
