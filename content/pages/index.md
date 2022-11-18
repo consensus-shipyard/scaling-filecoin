@@ -170,54 +170,6 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-px pr-5 pl-5
-      contentWidth: w-full
-      columns: '4'
-      labelStyles: 'text-primary font-1 text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-4xl mb-11 '
-      subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-base mb-0 '
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: from-accent2 to-accent3 bg-gradient-to-br
-      padding: 'pt-9 pb-5 pr-9 pl-9 sm:pt-5 sm:pb-0 sm:pr-5 sm:pl-5'
-      type: solid
-      borderStyles: border-primary border-0
-      labelStyles: 'text-primary undefined text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-7xl mb-7 '
-      subheadStyles: 'text-primary undefined text-lg mb-0 '
-      textStyles: 'text-primary undefined text-xl mb-5 '
-      buttonType: secondary
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: Spacenet goals
-    subhead: ''
-    body: ''
-    items:
-      - headline: '???'
-        subhead: ''
-        text: |
-          Trantor subnet time to finality
-        link: ''
-        buttonLabel: ''
-      - headline: '???'
-        subhead: ''
-        text: |
-          Trantor subnet TPS
-      - headline: 1000s
-        subhead: ''
-        text: |
-          Number of supported subnets
-      - headline: '+000'
-        subhead: ''
-        text: |
-          Something else?
-    navigationLabel: Numbers area
-    _template: textCards
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
       padding: pt-20 pb-20 pr-5 pl-5
       contentWidth: w-full
       columns: '2'
@@ -279,7 +231,55 @@ blocks:
           incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
           enim ad minima veniam, quis nostrum exercitationem ullam corporis
           suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-    navigationLabel: ''
+    navigationLabel: Spacenet
+    _template: textCards
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-px pr-5 pl-5
+      contentWidth: w-full
+      columns: '4'
+      labelStyles: 'text-primary font-1 text-xl mb-0 '
+      headlineStyles: 'text-white undefined text-4xl mb-11 '
+      subheadStyles: 'text-primary undefined text-3xl mb-0 '
+      textStyles: 'text-primary undefined text-base mb-0 '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: from-accent2 to-accent3 bg-gradient-to-br
+      padding: 'pt-9 pb-5 pr-9 pl-9 sm:pt-5 sm:pb-0 sm:pr-5 sm:pl-5'
+      type: solid
+      borderStyles: border-primary border-0
+      labelStyles: 'text-primary undefined text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-7xl mb-7 '
+      subheadStyles: 'text-primary undefined text-lg mb-0 '
+      textStyles: 'text-primary undefined text-xl mb-5 '
+      buttonType: secondary
+    background:
+      fillStyles: bg-black
+    label: ''
+    headline: Spacenet goals
+    subhead: ''
+    body: ''
+    items:
+      - headline: '???'
+        subhead: ''
+        text: |
+          Trantor subnet time to finality
+        link: ''
+        buttonLabel: ''
+      - headline: '???'
+        subhead: ''
+        text: |
+          Trantor subnet TPS
+      - headline: 1000s
+        subhead: ''
+        text: |
+          Number of supported subnets
+      - headline: '+000'
+        subhead: ''
+        text: |
+          Something else?
+    navigationLabel: Numbers area
     _template: textCards
   - style:
       textAlignment: text-left
