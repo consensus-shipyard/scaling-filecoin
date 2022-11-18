@@ -191,7 +191,7 @@ blocks:
     background:
       fillStyles: bg-black
     label: ''
-    headline: Sed ut perspiciatis unde omnis iste
+    headline: Spacenet goals
     subhead: ''
     body: ''
     items:
@@ -208,7 +208,7 @@ blocks:
       - headline: 1000s
         subhead: ''
         text: |
-          Number of subnets supported
+          Number of supported subnets
       - headline: '+000'
         subhead: ''
         text: |
