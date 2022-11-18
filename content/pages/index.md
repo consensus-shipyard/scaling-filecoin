@@ -236,7 +236,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-px pr-5 pl-5
+      padding: pt-px pb-20 pr-5 pl-5
       contentWidth: w-full
       columns: '4'
       labelStyles: 'text-primary font-1 text-xl mb-0 '
