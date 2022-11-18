@@ -308,7 +308,7 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
       position: object-left-bottom
     label: ''
-    headline: Dive in
+    headline: Resources
     subhead: ''
     body: ''
     items:
