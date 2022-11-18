@@ -118,7 +118,7 @@
         {
           "headline": "",
           "subhead": "Resources",
-          "text": "[Spec](https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical\\_consensus.md)\n\n[FIP](https://github.com/filecoin-project/FIPs/discussions/419)\n\nDiscussions\n"
+          "text": "[Spec](https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical\\_consensus.md)\n\n[FIP](https://github.com/filecoin-project/FIPs/discussions/419)\n\n[Discussions](https://github.com/protocol/ConsensusLab/discussions)\n"
         }
       ],
       "_template": "textCards"
