@@ -65,7 +65,7 @@ blocks:
 
           Moreover, not every application benefits from using the same consensus
           algorithm: different applications may have different performance and
-          security requriements, making it difficult for a single blockchain
+          security requirements, making it difficult for a single blockchain
           network with a single consensus layer to accommodate any type of web3
           application.
         link: ''
