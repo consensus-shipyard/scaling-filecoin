@@ -297,9 +297,9 @@ blocks:
     headline: Spacenet
     subhead: ''
     body: >
-      An early builders testnet for Interplanetary Consensus, Mir, and Trantor.
-      High throughput and low latency with smart contract capabilities, powered
-      by FVM.&#x20;
+      An early builders testnet for Interplanetary Consensus, Mir, ISS, and
+      Trantor. High throughput and low latency with smart contract capabilities,
+      powered by FVM.&#x20;
     navigationLabel: Spacenet
     _template: banner
   - style:
