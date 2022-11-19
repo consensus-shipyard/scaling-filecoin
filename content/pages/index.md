@@ -118,7 +118,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1668821498/scaling-filecoin/hc-paper_dhjbzd.png
     label: ''
     headline: Interplanetary Consensus
     subhead: ''
