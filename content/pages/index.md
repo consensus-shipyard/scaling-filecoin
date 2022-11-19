@@ -361,26 +361,19 @@ blocks:
       ornaments:
         - alignment: bottom-left
     style:
-      textAlignment: text-center
+      textAlignment: text-left
       minHeight: min-h-0
-      padding: 'pt-20 pb-5 pr-28 pl-28 sm:pt-5 sm:pb-0 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-5 pr-5 pl-5 sm:pt-5 sm:pb-0 sm:pr-5 sm:pl-5'
       contentWidth: w-full
       labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-10 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
       subheadStyles: 'text-black font-1 text-3xl mb-0 '
       textStyles: 'text-black font-1 text-lg mb-24 '
       contentOrder: labelHeadingsContent
     label: ''
     headline: Roadmap
     subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    body: ''
     items:
       - eventDate: Nov 2022
         eventName: 'M1: Spacenet launches with Mir/ISS'
