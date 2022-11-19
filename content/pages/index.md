@@ -238,7 +238,7 @@ blocks:
       fillStyles: bg-primary
       padding: pt-5 pb-5 pr-0 pl-0
       type: transparent
-      imageStyles: h-12 object-contain object-left mb-0
+      imageStyles: h-12 object-contain object-left mb-3
       labelStyles: 'text-black undefined text-sm mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-4 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
@@ -257,12 +257,8 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1668822100/streamlinehq-computer-chip-computers-devices-electronics-48_ha3vfk.png
         headline: Computation
         text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+          Have a decentralised computation job to run? Spawn an ephemeral subnet
+          according to application-specific requirements.
         link: ''
         buttonLabel: ''
       - image:
@@ -270,12 +266,8 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1668822097/streamlinehq-user-network-business-products-48_vcwk6m.png
         headline: Coordination
         text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+          Assemble into smaller subnets for decentralised orchestration.
+          Coordinate resources with high throughput and low fees.
         link: ''
         buttonLabel: ''
       - image:
@@ -283,12 +275,8 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1668822094/streamlinehq-network-internet-networks-servers-48_f0hjww.png
         headline: Localisation
         text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+          Leverage proximity to improve performance. Operate at very low latency
+          in geographically constrained settings.
         link: ''
         buttonLabel: ''
     navigationLabel: Applications
