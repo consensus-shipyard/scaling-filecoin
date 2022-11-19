@@ -131,7 +131,10 @@ blocks:
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     buttons:
-      - label: Read the paper
+      - label: Paper
+        link: /
+        type: primary
+      - label: Spec
         link: /
         type: primary
     navigationLabel: ''
@@ -151,7 +154,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1668821864/scaling-filecoin/mir-paper_hs5tye.png
     label: ''
     headline: Mir
     subhead: ''
@@ -164,7 +167,10 @@ blocks:
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     buttons:
-      - label: See the code
+      - label: Paper
+        link: /
+        type: primary
+      - label: Code
         link: /
         type: primary
     navigationLabel: ''
