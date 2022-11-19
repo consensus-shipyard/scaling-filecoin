@@ -301,7 +301,7 @@ blocks:
       High throughput and low latency with smart contract capabilities, powered
       by FVM.&#x20;
     buttons:
-      - label: Try it out
+      - label: Get started
         link: /
         type: secondary
     navigationLabel: Spacenet
