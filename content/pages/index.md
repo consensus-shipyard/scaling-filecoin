@@ -44,7 +44,7 @@ blocks:
       labelStyles: 'text-primary undefined text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-4xl mb-4 '
       subheadStyles: 'text-primary undefined text-lg mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-5 '
+      textStyles: 'text-primary undefined text-base mb-5 '
       buttonType: secondary
     background:
       fillStyles: bg-black
@@ -171,50 +171,6 @@ blocks:
         buttonLabel: ''
     navigationLabel: Applications
     _template: photoCards
-  - background:
-      src: ''
-      position: object-left
-      ornaments:
-        - alignment: bottom-left
-    style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: 'pt-20 pb-5 pr-28 pl-28 sm:pt-5 sm:pb-0 sm:pr-8 sm:pl-8'
-      contentWidth: w-full
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-10 '
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-black font-1 text-lg mb-24 '
-      contentOrder: labelHeadingsContent
-    label: ''
-    headline: Sed ut perspiciatis unde omnis iste
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    items:
-      - eventDate: Nov 2022
-        eventName: 'M1: Spacenet launches with Mir/ISS'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - eventDate: 'Feb 2023 '
-        eventName: 'M2: IPC deployed onto Spacenet'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - eventDate: End 2023
-        eventName: 'M3: IPC and Mir on Filecoin mainnet'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-    navigationLabel: Roadmap
-    _template: eventList
   - style:
       textAlignment: text-center
       minHeight: min-h-0
@@ -231,13 +187,9 @@ blocks:
     headline: Spacenet
     subhead: ''
     body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      An early builders testnet for Interplanetary Consensus, Mir, and Trantor.
+      High throughput and low latency with smart contract capabilities, powered
+      by FVM.&#x20;
     navigationLabel: Spacenet
     _template: banner
   - style:
@@ -387,92 +339,51 @@ blocks:
         type: primary
     navigationLabel: ''
     _template: feature
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-14 pb-80 pr-5 pl-5
-      contentWidth: w-full
-      columns: '4'
-      labelStyles: 'text-black undefined text-xl mb-0 '
-      headlineStyles: 'text-black undefined text-6xl mb-10 '
-      subheadStyles: 'text-black undefined text-3xl mb-0 '
-      textStyles: 'text-black undefined text-lg mb-0 '
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: bg-primary
-      padding: pt-5 pb-5 pr-0 pl-0
-      type: transparent
-      imageStyles: h-28 object-contain object-left mb-0
-      labelStyles: 'text-black undefined text-sm mb-0 '
-      headlineStyles: 'text-black undefined text-2xl mb-4 '
-      subheadStyles: 'text-black undefined text-lg mb-0 '
-      textStyles: 'text-black undefined text-base mb-0 '
-      buttonType: primary
-    background:
-      fillStyles: bg-primary
+  - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
-      position: object-left-bottom
+      position: object-left
+      ornaments:
+        - alignment: bottom-left
+    style:
+      textAlignment: text-center
+      minHeight: min-h-0
+      padding: 'pt-20 pb-5 pr-28 pl-28 sm:pt-5 sm:pb-0 sm:pr-8 sm:pl-8'
+      contentWidth: w-full
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-10 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-lg mb-24 '
+      contentOrder: labelHeadingsContent
     label: ''
-    headline: Applications
+    headline: Sed ut perspiciatis unde omnis iste
     subhead: ''
-    body: ''
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
     items:
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Spacenet
-        text: >
+      - eventDate: Nov 2022
+        eventName: 'M1: Spacenet launches with Mir/ISS'
+        summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Spec
-        text: >
+          accusantium doloremque laudantium
+      - eventDate: 'Feb 2023 '
+        eventName: 'M2: IPC deployed onto Spacenet'
+        summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Discussions
-        text: >
+          accusantium doloremque laudantium
+      - eventDate: End 2023
+        eventName: 'M3: IPC and Mir on Filecoin mainnet'
+        summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: FIP
-        subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-    navigationLabel: Resources
-    _template: photoCards
+          accusantium doloremque laudantium
+    navigationLabel: Roadmap
+    _template: eventList
 meta:
   pageTitle: Scaling Filecoin
   pageDescription: Scaling Filecoin
