@@ -169,7 +169,7 @@ blocks:
           qui ratione voluptatem sequi nesciunt.
         link: ''
         buttonLabel: ''
-    navigationLabel: Resources
+    navigationLabel: Applications
     _template: photoCards
   - background:
       src: ''
@@ -218,7 +218,7 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: 'pt-20 pb-24 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
+      padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-primary undefined text-xl mb-0 '
       headlineStyles: 'text-white undefined text-5xl mb-10 '
@@ -228,7 +228,7 @@ blocks:
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
     label: ''
-    headline: Sed ut perspiciatis unde omnis iste
+    headline: Spacenet
     subhead: ''
     body: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -238,12 +238,56 @@ blocks:
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-    buttons:
-      - label: Lorem Ipsum
-        link: ''
-        type: secondary
-    navigationLabel: Banner
+    navigationLabel: Spacenet
     _template: banner
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-10 pb-10 pr-5 pl-5
+      contentWidth: w-full
+      columns: '4'
+      labelStyles: 'text-primary font-1 text-xl mb-0 '
+      headlineStyles: 'text-white undefined text-4xl mb-11 '
+      subheadStyles: 'text-primary undefined text-3xl mb-0 '
+      textStyles: 'text-primary undefined text-base mb-0 '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: from-accent2 to-accent3 bg-gradient-to-br
+      padding: 'pt-9 pb-5 pr-9 pl-9 sm:pt-5 sm:pb-0 sm:pr-5 sm:pl-5'
+      type: solid
+      borderStyles: border-primary border-0
+      labelStyles: 'text-primary undefined text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-7xl mb-7 '
+      subheadStyles: 'text-primary undefined text-lg mb-0 '
+      textStyles: 'text-primary undefined text-xl mb-5 '
+      buttonType: secondary
+    background:
+      fillStyles: bg-black
+    label: ''
+    headline: Spacenet goals
+    subhead: ''
+    body: ''
+    items:
+      - headline: '???'
+        subhead: ''
+        text: |
+          Trantor subnet time to finality
+        link: ''
+        buttonLabel: ''
+      - headline: '???'
+        subhead: ''
+        text: |
+          Trantor subnet TPS
+      - headline: 1000s
+        subhead: ''
+        text: |
+          Number of supported subnets
+      - headline: '+000'
+        subhead: ''
+        text: |
+          Something else?
+    navigationLabel: ''
+    _template: textCards
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
@@ -343,54 +387,6 @@ blocks:
         type: primary
     navigationLabel: ''
     _template: feature
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-px pb-20 pr-5 pl-5
-      contentWidth: w-full
-      columns: '4'
-      labelStyles: 'text-primary font-1 text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-4xl mb-11 '
-      subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-base mb-0 '
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: from-accent2 to-accent3 bg-gradient-to-br
-      padding: 'pt-9 pb-5 pr-9 pl-9 sm:pt-5 sm:pb-0 sm:pr-5 sm:pl-5'
-      type: solid
-      borderStyles: border-primary border-0
-      labelStyles: 'text-primary undefined text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-7xl mb-7 '
-      subheadStyles: 'text-primary undefined text-lg mb-0 '
-      textStyles: 'text-primary undefined text-xl mb-5 '
-      buttonType: secondary
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: Spacenet goals
-    subhead: ''
-    body: ''
-    items:
-      - headline: '???'
-        subhead: ''
-        text: |
-          Trantor subnet time to finality
-        link: ''
-        buttonLabel: ''
-      - headline: '???'
-        subhead: ''
-        text: |
-          Trantor subnet TPS
-      - headline: 1000s
-        subhead: ''
-        text: |
-          Number of supported subnets
-      - headline: '+000'
-        subhead: ''
-        text: |
-          Something else?
-    navigationLabel: ''
-    _template: textCards
   - style:
       textAlignment: text-left
       minHeight: min-h-0
