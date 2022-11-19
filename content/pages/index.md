@@ -29,7 +29,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-20 pr-5 pl-5
+      padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
       columns: '2'
       labelStyles: 'text-primary font-1 text-xl mb-0 '
