@@ -27,6 +27,114 @@ blocks:
     body: ''
     _template: feature
   - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-20 pr-5 pl-5
+      contentWidth: w-full
+      columns: '2'
+      labelStyles: 'text-primary font-1 text-xl mb-0 '
+      headlineStyles: 'text-white undefined text-4xl mb-11 '
+      subheadStyles: text-primary undefined text-3xl mb-0 font-bold
+      textStyles: 'text-primary undefined text-base mb-0 '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      padding: 'pt-5 pb-5 pr-0 pl-0 sm:pt-5 sm:pb-0 sm:pr-0 sm:pl-0'
+      type: solid
+      borderStyles: border-primary border-0
+      labelStyles: 'text-primary undefined text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-4xl mb-4 '
+      subheadStyles: 'text-primary undefined text-lg mb-0 '
+      textStyles: 'text-primary undefined text-lg mb-5 '
+      buttonType: secondary
+    background:
+      fillStyles: bg-black
+    label: ''
+    headline: ''
+    subhead: ''
+    body: ''
+    items:
+      - headline: ''
+        subhead: ''
+        text: >+
+          Consensus poses a major scalability bottleneck in blockchain networks.
+          This is particularly the case when all validators are required to
+          process all transactions, as is the case for Filecoin, which renders
+          the network unable to increase its performance by adding more
+          participants (scale-out).&#x20;
+
+
+          Moreover, not every application benefits from using the same consensus
+          algorithm: different applications may have different performance and
+          security requriements, making it difficult for a single blockchain
+          network with a single consensus layer to accommodate any type of web3
+          application.
+
+
+
+        link: ''
+        buttonLabel: ''
+      - headline: ''
+        subhead: ''
+        text: >
+          Interplanetary Consensus (IPC) is a framework to enable on-demand
+          horizontal scalability of Filecoin through the deployment of subnets
+          (self-governing chains) that spawn their own state, validate messages
+          in parallel, and seamlessly interact with any network in the
+          hierarchy, as well as the Filecoin mainnet. Subnets can run different
+          consensus algorithms, adjusting to the needs of the application.
+
+
+          IPC is complementary to the programmability introduced by FVM, in that
+          it provides a framework to further program the Filecoin network,
+          accommodating a wide variety of use cases while overcoming potential
+          consensus bottlenecks.
+    navigationLabel: ''
+    _template: textCards
+  - background:
+      src: ''
+      position: object-left
+      ornaments:
+        - alignment: bottom-left
+    style:
+      textAlignment: text-center
+      minHeight: min-h-0
+      padding: 'pt-20 pb-5 pr-28 pl-28 sm:pt-5 sm:pb-0 sm:pr-8 sm:pl-8'
+      contentWidth: w-full
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-10 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-lg mb-24 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Sed ut perspiciatis unde omnis iste
+    subhead: ''
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    items:
+      - eventDate: Nov 2022
+        eventName: 'M1: Spacenet launches with Mir/ISS'
+        summary: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium
+      - eventDate: 'Feb 2023 '
+        eventName: 'M2: IPC deployed onto Spacenet'
+        summary: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium
+      - eventDate: End 2023
+        eventName: 'M3: IPC and Mir on Filecoin mainnet'
+        summary: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium
+    navigationLabel: Roadmap
+    _template: eventList
+  - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
       padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
@@ -125,114 +233,6 @@ blocks:
         type: primary
     navigationLabel: ''
     _template: feature
-  - background:
-      ornaments:
-        - alignment: bottom-left
-    style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: 'pt-20 pb-5 pr-28 pl-28 sm:pt-5 sm:pb-0 sm:pr-8 sm:pl-8'
-      contentWidth: w-full
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-10 '
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-black font-1 text-lg mb-24 '
-      contentOrder: labelHeadingsContent
-    label: ''
-    headline: Sed ut perspiciatis unde omnis iste
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    items:
-      - eventDate: Nov 2022
-        eventName: 'M1: Spacenet launches with Mir/ISS'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - eventDate: 'Feb 2023 '
-        eventName: 'M2: IPC deployed onto Spacenet'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - eventDate: End 2023
-        eventName: 'M3: IPC and Mir on Filecoin mainnet'
-        summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-    navigationLabel: Roadmap
-    _template: eventList
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-20 pb-20 pr-5 pl-5
-      contentWidth: w-full
-      columns: '2'
-      labelStyles: 'text-primary font-1 text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-4xl mb-11 '
-      subheadStyles: text-primary undefined text-3xl mb-0 font-bold
-      textStyles: 'text-primary undefined text-base mb-0 '
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      padding: 'pt-5 pb-5 pr-0 pl-0 sm:pt-5 sm:pb-0 sm:pr-0 sm:pl-0'
-      type: solid
-      borderStyles: border-primary border-0
-      labelStyles: 'text-primary undefined text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-4 '
-      subheadStyles: 'text-primary undefined text-lg mb-0 '
-      textStyles: 'text-primary undefined text-base mb-5 '
-      buttonType: secondary
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: Sed ut perspiciatis unde omnis iste
-    subhead: Lorem Ipsum Dolor
-    body: ''
-    items:
-      - headline: ''
-        subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-
-
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit, sed quia non numquam eius modi tempora
-          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-          enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-          autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-          nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-          voluptas nulla pariatur
-        link: ''
-        buttonLabel: ''
-      - headline: ''
-        subhead: ''
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-
-
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit, sed quia non numquam eius modi tempora
-          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-          enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-    navigationLabel: Spacenet
-    _template: textCards
   - style:
       textAlignment: text-left
       minHeight: min-h-0
@@ -308,7 +308,7 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
       position: object-left-bottom
     label: ''
-    headline: Resources
+    headline: Applications
     subhead: ''
     body: ''
     items:
