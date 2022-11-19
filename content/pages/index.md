@@ -343,17 +343,17 @@ blocks:
       - headline: '???'
         subhead: ''
         text: |
-          Trantor subnet time to finality
+          Epoch time
         link: ''
         buttonLabel: ''
       - headline: '???'
         subhead: ''
         text: |
-          Trantor subnet TPS
+          TPS
       - headline: 1000s
         subhead: ''
         text: |
-          Number of supported subnets
+          Supported subnets
       - headline: '+000'
         subhead: ''
         text: |
