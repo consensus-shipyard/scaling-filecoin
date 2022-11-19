@@ -90,11 +90,141 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
+      padding: pt-20 pb-20 pr-10 pl-5
+      width: normal
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Components
+    subhead: ''
+    body: ''
+    navigationLabel: Components
+    _template: banner
+  - style:
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-1/2 min-h-0 '
+      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: 'object-center object-contain '
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      labelStyles: 'text-primary font-1 text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
+      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
+      textStyles: 'text-primary font-1 text-base mb-16 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-black
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
+    label: ''
+    headline: Interplanetary Consensus
+    subhead: ''
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    buttons:
+      - label: Read the paper
+        link: /
+        type: primary
+    navigationLabel: ''
+    _template: feature
+  - style:
+      alignment: 'flex-row text-left items-center items-start-vertical '
+      featureContent: 'w-1/2 min-h-0 '
+      padding: 'pt-20 pb-10 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: 'object-center object-contain '
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      labelStyles: 'text-primary font-1 text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
+      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
+      textStyles: 'text-primary font-1 text-base mb-16 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-black
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
+    label: ''
+    headline: Mir
+    subhead: ''
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    buttons:
+      - label: See the code
+        link: /
+        type: primary
+    navigationLabel: ''
+    _template: feature
+  - style:
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-1/2 min-h-0 '
+      padding: 'pt-20 pb-20 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: 'object-center object-contain '
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      labelStyles: 'text-primary font-1 text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
+      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
+      textStyles: 'text-primary font-1 text-base mb-16 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-black
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1666965394/scaling-filecoin/placeholder-rectangle-big_ucmxlu.jpg
+    label: ''
+    headline: ISS
+    subhead: ''
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    buttons:
+      - label: Button Label
+        link: /
+        type: primary
+    navigationLabel: ''
+    _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-10 pr-10 pl-5
+      width: normal
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Applications
+    subhead: ''
+    body: ''
+    _template: banner
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
-      columns: '4'
+      columns: '3'
       labelStyles: 'text-black undefined text-xl mb-0 '
-      headlineStyles: 'text-black undefined text-6xl mb-10 '
+      headlineStyles: 'text-black undefined text-4xl mb-10 '
       subheadStyles: 'text-black undefined text-3xl mb-0 '
       textStyles: 'text-black undefined text-lg mb-0 '
       contentOrder: labelHeadingsContent
@@ -112,14 +242,14 @@ blocks:
       src: ''
       position: object-left-bottom
     label: ''
-    headline: Applications
+    headline: ''
     subhead: ''
     body: ''
     items:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Spacenet
+        headline: Computation
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
@@ -132,7 +262,7 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Spec
+        headline: Coordination
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
@@ -145,21 +275,7 @@ blocks:
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: Discussions
-        text: >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
-        link: ''
-        buttonLabel: ''
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
-        headline: FIP
-        subhead: ''
+        headline: Localisation
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
@@ -190,6 +306,10 @@ blocks:
       An early builders testnet for Interplanetary Consensus, Mir, and Trantor.
       High throughput and low latency with smart contract capabilities, powered
       by FVM.&#x20;
+    buttons:
+      - label: Try it out
+        link: /
+        type: secondary
     navigationLabel: Spacenet
     _template: banner
   - style:
@@ -216,7 +336,7 @@ blocks:
     background:
       fillStyles: bg-black
     label: ''
-    headline: Spacenet goals
+    headline: ''
     subhead: ''
     body: ''
     items:
@@ -240,105 +360,6 @@ blocks:
           Something else?
     navigationLabel: ''
     _template: textCards
-  - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
-    label: ''
-    headline: Lorem ipsum dolor
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    buttons:
-      - label: Button Label
-        link: /
-        type: primary
-    navigationLabel: ''
-    _template: feature
-  - style:
-      alignment: 'flex-row text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-10 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965299/scaling-filecoin/placeholder-rectangle_sdejwl.jpg
-    label: ''
-    headline: Lorem ipsum dolor
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    buttons:
-      - label: Button Label
-        link: /
-        type: primary
-    navigationLabel: ''
-    _template: feature
-  - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-20 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965394/scaling-filecoin/placeholder-rectangle-big_ucmxlu.jpg
-    label: ''
-    headline: Lorem ipsum dolor
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    buttons:
-      - label: Button Label
-        link: /
-        type: primary
-    navigationLabel: ''
-    _template: feature
   - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
@@ -356,7 +377,7 @@ blocks:
       textStyles: 'text-black font-1 text-lg mb-24 '
       contentOrder: labelHeadingsContent
     label: ''
-    headline: Sed ut perspiciatis unde omnis iste
+    headline: Roadmap
     subhead: ''
     body: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
