@@ -337,7 +337,7 @@ blocks:
       - headline: '???'
         subhead: ''
         text: |
-          Epoch time
+          Epoch period
         link: ''
         buttonLabel: ''
       - headline: '???'
