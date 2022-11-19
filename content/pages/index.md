@@ -300,10 +300,6 @@ blocks:
       An early builders testnet for Interplanetary Consensus, Mir, and Trantor.
       High throughput and low latency with smart contract capabilities, powered
       by FVM.&#x20;
-    buttons:
-      - label: Get started
-        link: /
-        type: secondary
     navigationLabel: Spacenet
     _template: banner
   - style:
@@ -357,7 +353,7 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-primary undefined text-xl mb-0 '
       headlineStyles: 'text-white undefined text-5xl mb-10 '
@@ -367,18 +363,15 @@ blocks:
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
     label: ''
-    headline: Spacenet
+    headline: ''
     subhead: ''
-    body: >
-      An early builders testnet for Interplanetary Consensus, Mir, and Trantor.
-      High throughput and low latency with smart contract capabilities, powered
-      by FVM.&#x20;
+    body: ''
     buttons:
       - label: Get started
         link: /
         type: secondary
     navigationLabel: Spacenet
-    _template: banner    
+    _template: banner
   - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
