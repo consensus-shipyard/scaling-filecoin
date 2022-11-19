@@ -238,7 +238,7 @@ blocks:
       fillStyles: bg-primary
       padding: pt-5 pb-5 pr-0 pl-0
       type: transparent
-      imageStyles: h-28 object-contain object-left mb-0
+      imageStyles: h-12 object-contain object-left mb-0
       labelStyles: 'text-black undefined text-sm mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-4 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
@@ -254,7 +254,7 @@ blocks:
     items:
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
+            https://res.cloudinary.com/protocolai/image/upload/v1668822100/streamlinehq-computer-chip-computers-devices-electronics-48_ha3vfk.png
         headline: Computation
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -267,7 +267,7 @@ blocks:
         buttonLabel: ''
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
+            https://res.cloudinary.com/protocolai/image/upload/v1668822097/streamlinehq-user-network-business-products-48_vcwk6m.png
         headline: Coordination
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -280,7 +280,7 @@ blocks:
         buttonLabel: ''
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1666965297/scaling-filecoin/placeholder-circle_z996ym.jpg
+            https://res.cloudinary.com/protocolai/image/upload/v1668822094/streamlinehq-network-internet-networks-servers-48_f0hjww.png
         headline: Localisation
         text: >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
