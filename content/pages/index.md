@@ -112,7 +112,7 @@ blocks:
       labelStyles: 'text-primary font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-4xl mb-7 '
       subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
+      textStyles: 'text-primary font-1 text-base mb-7 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
@@ -150,7 +150,7 @@ blocks:
       labelStyles: 'text-primary font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-4xl mb-7 '
       subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
+      textStyles: 'text-primary font-1 text-base mb-7 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
