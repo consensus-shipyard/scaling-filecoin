@@ -160,7 +160,7 @@ blocks:
     label: ''
     headline: Mir and Trantor
     subhead: ''
-    body: >+
+    body: >
       Mir is a framework for implementing, debugging, and analyzing distributed
       protocols. We use Mir to implement Trantor, a state machine replication
       system that establishes a total order of client requests with typical
@@ -168,9 +168,6 @@ blocks:
       requiring a primary node to periodically decide on the protocol
       configuration. It multiplexes multiple instances of a leader-driven
       consensus protocol which operate concurrently and almost independently.
-
-
-
     buttons:
       - label: Paper
         link: >-
