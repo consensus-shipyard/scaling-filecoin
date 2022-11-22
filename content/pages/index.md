@@ -156,7 +156,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1668821864/scaling-filecoin/mir-paper_hs5tye.png
     label: ''
-    headline: Mir
+    headline: Mir and Trantor
     subhead: ''
     body: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -171,39 +171,6 @@ blocks:
         link: /
         type: primary
       - label: Code
-        link: /
-        type: primary
-    navigationLabel: ''
-    _template: feature
-  - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-20 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-16 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1666965394/scaling-filecoin/placeholder-rectangle-big_ucmxlu.jpg
-    label: ''
-    headline: ISS
-    subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    buttons:
-      - label: Button Label
         link: /
         type: primary
     navigationLabel: ''
@@ -287,19 +254,19 @@ blocks:
       padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-primary undefined text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-5xl mb-10 '
-      subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-16 '
+      headlineStyles: 'text-white undefined text-5xl mb-7 '
+      subheadStyles: 'text-primary undefined text-xl mb-7 '
+      textStyles: 'text-primary undefined text-base mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
     label: ''
     headline: Spacenet
-    subhead: ''
-    body: >
-      An early builders testnet for Interplanetary Consensus, Mir, ISS, and
-      Trantor. High throughput and low latency with smart contract capabilities,
-      powered by FVM.&#x20;
+    subhead: >-
+      An early builder testnet for Interplanetary Consensus, Mir, and Trantor.
+      High throughput and low latency with smart contract capabilities, powered
+      by FVM. 
+    body: "Spacenet is not\_just another\_Filecoin testnet. By adopting a high-performance consensus implementation of Trantor over Mir, we have increased the network's throughput while reducing the block time to around 1 second.  As FVM onboards a gamut of new applications to the Filecoin network, many use cases will have requirements beyond what Filecoin can accommodate. Spacenet provides developers with a testbed to deploy those FVM use cases and innovate with new Web3 applications. Once IPC is released in Spacenet, in early 2023, developers will be able to deploy their own subnets from Spacenet while maintaining the ability to seamlessly interact with state and applications in the original network.\n"
     navigationLabel: Spacenet
     _template: banner
   - style:
@@ -307,7 +274,7 @@ blocks:
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
-      columns: '4'
+      columns: '3'
       labelStyles: 'text-primary font-1 text-xl mb-0 '
       headlineStyles: 'text-white undefined text-4xl mb-11 '
       subheadStyles: 'text-primary undefined text-3xl mb-0 '
@@ -330,10 +297,10 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: '???'
+      - headline: 1 s
         subhead: ''
         text: |
-          Epoch period
+          Epochs
         link: ''
         buttonLabel: ''
       - headline: '???'
@@ -343,11 +310,7 @@ blocks:
       - headline: 1000s
         subhead: ''
         text: |
-          Supported subnets
-      - headline: '+000'
-        subhead: ''
-        text: |
-          Something else?
+          Subnets supported
     navigationLabel: ''
     _template: textCards
   - style:
@@ -368,7 +331,7 @@ blocks:
     body: ''
     buttons:
       - label: Get started
-        link: /
+        link: 'https://github.com/consensus-shipyard/spacenet'
         type: secondary
     navigationLabel: Spacenet
     _template: banner
