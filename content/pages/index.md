@@ -373,7 +373,7 @@ blocks:
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium
-      - eventDate: End 2023
+      - eventDate: Jun 2023
         eventName: 'M3: IPC and Mir on Filecoin mainnet'
         summary: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
