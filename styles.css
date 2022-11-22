@@ -33,6 +33,19 @@ section > .text-right .markdown img {
   margin-left: auto;
 }
 
+footer {
+  img {
+    width: 250px;
+  }
+
+  @media (min-width: 900px){
+    .grid > div + div {
+      padding-left: 80px;
+    }
+  }
+
+}
+
 /* TINA CMS ADJUSTMENTS
 
 /* Hide various rich-text toolbar items */
