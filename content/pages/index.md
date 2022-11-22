@@ -216,7 +216,7 @@ blocks:
       labelStyles: 'text-black undefined text-sm mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-4 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
-      textStyles: 'text-black undefined text-base mb-0 '
+      textStyles: 'text-black undefined text-base mb-5 '
       buttonType: primary
     background:
       src: ''
@@ -340,7 +340,7 @@ blocks:
       - label: Ready to lift off?
         link: 'https://github.com/consensus-shipyard/spacenet'
         type: secondary
-    navigationLabel: Spacenet
+    navigationLabel: ''
     _template: banner
   - background:
       src: >-
