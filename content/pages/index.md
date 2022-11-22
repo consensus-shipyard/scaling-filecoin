@@ -123,19 +123,21 @@ blocks:
     headline: Interplanetary Consensus
     subhead: ''
     body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      Unlike traditional sharding designs, based on partitioning the state of
+      the network, our solution centres on the concept of subnets, organised in
+      a hierarchy, that can be spawned on-demand to manage new state. Child
+      subnets are firewalled from parent subnets, have their own specific
+      policies, and run a different consensus algorithm, increasing the network
+      capacity and enabling new applications. Nevertheless, they benefit from
+      the security of parent subnets by periodically checkpointing state.
     buttons:
       - label: Paper
-        link: /
+        link: >-
+          https://research.protocol.ai/publications/hierarchical-consensus-a-horizontal-scaling-framework-for-blockchains/delarocha2022.pdf
         type: primary
       - label: Spec
-        link: /
+        link: >-
+          https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical_consensus.md
         type: primary
     navigationLabel: ''
     _template: feature
