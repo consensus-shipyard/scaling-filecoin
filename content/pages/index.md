@@ -60,7 +60,7 @@ blocks:
           This is particularly the case when all validators are required to
           process all transactions, as is the case for Filecoin, which renders
           the network unable to increase its performance by adding more
-          participants (scale-out).&#x20;
+          participants (scale-out).
 
 
           Moreover, not every application benefits from using the same consensus
@@ -74,16 +74,16 @@ blocks:
         subhead: ''
         text: >
           Interplanetary Consensus (IPC) is a framework to enable on-demand
-          horizontal scalability of Filecoin through the deployment of subnets
+          horizontal scalability of Filecoin by deploying subnets
           (self-governing chains) that spawn their own state, validate messages
           in parallel, and seamlessly interact with any network in the
-          hierarchy, as well as the Filecoin mainnet. Subnets can run different
-          consensus algorithms, adjusting to the needs of the application.
+          hierarchy, as well as with the Filecoin root network. Subnets can run
+          different consensus algorithms, depending on application requirements.
 
 
-          IPC is complementary to the programmability introduced by FVM, in that
-          it provides a framework to further program the Filecoin network,
-          accommodating a wide variety of use cases while overcoming potential
+          IPC is complementary to the programmability introduced by FVM: it
+          provides a framework to further program the Filecoin network,
+          accommodating a variety of use cases while overcoming potential
           consensus bottlenecks.
     navigationLabel: ''
     _template: textCards
