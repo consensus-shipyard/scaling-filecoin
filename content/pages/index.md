@@ -376,12 +376,11 @@ blocks:
           to test applications with custom requirements or generating high
           transaction volume. 
       - eventDate: End 2023
-        eventName: 'M3: IPC and Mir on Filecoin mainnet'
+        eventName: 'M3: Spacenet docks with Filecoin mainnet'
         summary: >-
-          FVM Milestone 2.2 (timeline to be confirmed) will unlock the ability
-          to deploy Wasm actors on Filecoin mainnet. With that ability, Spacenet
-          will anchor into Filecoin mainnet, enabling seamless interaction with
-          existing Filecoin storage and applications.
+          FVM Milestone 2.2 will unlock the ability to deploy Wasm actors on
+          Filecoin mainnet. Spacenet will anchor into Filecoin mainnet, enabling
+          seamless interaction with existing Filecoin storage and applications.
     navigationLabel: Roadmap
     _template: eventList
 meta:
