@@ -33,7 +33,7 @@ section > .text-right .markdown img {
   margin-left: auto;
 }
 
-div[data-tinafield="blocks.0"] {
+footer {
   img {
     width: 250px;
   }
