@@ -344,7 +344,7 @@ blocks:
     _template: banner
   - background:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1667009571/scaling-filecoin/scaling-filecoin-trees-background_rfk7k5.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1669080071/scaling-filecoin/scaling-filecoin-trees-background_semi_kqsfit.png
       position: object-left
       ornaments:
         - alignment: bottom-left
