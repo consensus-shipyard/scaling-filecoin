@@ -359,25 +359,29 @@ blocks:
       textStyles: 'text-black font-1 text-lg mb-24 '
       contentOrder: labelHeadingsContent
     label: ''
-    headline: Roadmap
+    headline: Launch sequence
     subhead: ''
     body: ''
     items:
       - eventDate: Nov 2022
-        eventName: 'M1: Spacenet launches with Mir/ISS'
+        eventName: 'M1: Spacenet launches with Mir and Trantor'
         summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+          Spacenet launches as a long-running testnet with Mir and Trantor as
+          its beating heart. Users can issue transactions and leverage the
+          higher-frequency BFT consensus.
       - eventDate: 'Feb 2023 '
         eventName: 'M2: IPC deployed onto Spacenet'
         summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
-      - eventDate: Jun 2023
+          Subnets support is added to Spacenet. Developers can now use Spacenet
+          to test applications with custom requirements or generating high
+          transaction volume. 
+      - eventDate: End 2023
         eventName: 'M3: IPC and Mir on Filecoin mainnet'
         summary: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium
+          FVM Milestone 2.2 (timeline to be confirmed) will unlock the ability
+          to deploy Wasm actors on Filecoin mainnet. With that ability, Spacenet
+          will anchor into Filecoin mainnet, enabling seamless interaction with
+          existing Filecoin storage and applications.
     navigationLabel: Roadmap
     _template: eventList
 meta:
