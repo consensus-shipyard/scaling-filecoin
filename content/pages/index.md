@@ -378,8 +378,8 @@ blocks:
       - eventDate: End 2023
         eventName: 'M3: Spacenet docks with Filecoin mainnet'
         summary: >-
-          FVM Milestone 2.2 will unlock the ability to deploy Wasm actors on
-          Filecoin mainnet. Spacenet will anchor into Filecoin mainnet, enabling
+          FVM Milestone 2.2 unlocks the ability to deploy Wasm actors on
+          Filecoin mainnet. Spacenet anchors to Filecoin mainnet, enabling
           seamless interaction with existing Filecoin storage and applications.
     navigationLabel: Roadmap
     _template: eventList
