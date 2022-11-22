@@ -160,20 +160,25 @@ blocks:
     label: ''
     headline: Mir and Trantor
     subhead: ''
-    body: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    body: >+
+      Mir is a framework for implementing, debugging, and analyzing distributed
+      protocols. We use Mir to implement Trantor, a [state machine replication
+      ](https://en.wikipedia.org/wiki/State\_machine\_replication)system that
+      establishes a total order of client requests with typical liveness and
+      safety properties. Trantor achieves scalability without requiring a
+      primary node to periodically decide on the protocol configuration. It
+      multiplexes multiple instances of a leader-driven consensus protocol which
+      operate concurrently and almost independently.
+
+
+
     buttons:
       - label: Paper
-        link: /
+        link: >-
+          https://research.protocol.ai/publications/mir-bft-scalable-and-robust-bft-for-decentralized-networks/vukolic2022.pdf
         type: primary
       - label: Code
-        link: /
+        link: 'https://github.com/filecoin-project/mir'
         type: primary
     navigationLabel: ''
     _template: feature
