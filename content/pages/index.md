@@ -254,12 +254,12 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
+      padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-14 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-primary undefined text-xl mb-0 '
       headlineStyles: 'text-white undefined text-5xl mb-7 '
       subheadStyles: 'text-primary undefined text-xl mb-7 '
-      textStyles: 'text-primary undefined text-base mb-10 '
+      textStyles: 'text-primary undefined text-base mb-0 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
