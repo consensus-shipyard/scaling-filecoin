@@ -319,9 +319,9 @@ blocks:
       padding: 'pt-10 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
       labelStyles: 'text-primary undefined text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-5xl mb-10 '
+      headlineStyles: 'text-white undefined text-5xl mb-0 '
       subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-16 '
+      textStyles: 'text-primary undefined text-lg mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
@@ -330,7 +330,7 @@ blocks:
     subhead: ''
     body: ''
     buttons:
-      - label: Get started
+      - label: Ready to lift off?
         link: 'https://github.com/consensus-shipyard/spacenet'
         type: secondary
     navigationLabel: Spacenet
