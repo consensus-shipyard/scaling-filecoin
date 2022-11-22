@@ -212,7 +212,7 @@ blocks:
       fillStyles: bg-primary
       padding: pt-5 pb-5 pr-0 pl-0
       type: transparent
-      imageStyles: h-12 object-contain object-left mb-3
+      imageStyles: h-14 object-contain object-left mb-3
       labelStyles: 'text-black undefined text-sm mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-4 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
@@ -228,7 +228,7 @@ blocks:
     items:
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1668822100/streamlinehq-computer-chip-computers-devices-electronics-48_ha3vfk.png
+            https://res.cloudinary.com/protocolai/image/upload/v1669079002/scaling-filecoin/hardware-chip-outline_z7kkoj.svg
         headline: Computation
         text: >
           Have a decentralised computation job to run? Spawn an ephemeral subnet
@@ -237,7 +237,7 @@ blocks:
         buttonLabel: ''
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1668822097/streamlinehq-user-network-business-products-48_vcwk6m.png
+            https://res.cloudinary.com/protocolai/image/upload/v1669078998/scaling-filecoin/share-social-outline_zkctna.svg
         headline: Coordination
         text: >
           Assemble into smaller subnets for decentralised orchestration.
@@ -246,7 +246,7 @@ blocks:
         buttonLabel: ''
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1668822094/streamlinehq-network-internet-networks-servers-48_f0hjww.png
+            https://res.cloudinary.com/protocolai/image/upload/v1669078994/scaling-filecoin/globe-outline_pdnjh8.svg
         headline: Localisation
         text: >
           Leverage proximity to improve performance. Operate at very low latency
