@@ -232,7 +232,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1669079002/scaling-filecoin/hardware-chip-outline_z7kkoj.svg
         headline: Computation
         text: |
-          Spawn ephemeral subnets according to run distributed computation jobs.
+          Spawn ephemeral subnets to run distributed computation jobs.
         link: ''
         buttonLabel: ''
       - image:
