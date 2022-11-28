@@ -286,7 +286,7 @@ blocks:
     navigationLabel: Spacenet
     _template: banner
   - style:
-      textAlignment: text-left
+      textAlignment: text-center
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
@@ -309,24 +309,23 @@ blocks:
     background:
       fillStyles: bg-black
     label: ''
-    headline: ''
+    headline: Early spacenet performance numbers
     subhead: ''
     body: ''
     items:
       - headline: 1 s
         subhead: ''
         text: |
-          Epochs
+          Trantor subnet latency
         link: ''
         buttonLabel: ''
-      - headline: '???'
+      - headline: '1000'
         subhead: ''
         text: |
-          TPS
-      - headline: 1000s
+          Trantor subnet TPS
+      - headline: 100s
         subhead: ''
-        text: |
-          Subnets supported
+        text: "Subnets supported **\U0001F51C**\n"
     navigationLabel: ''
     _template: textCards
   - style:
