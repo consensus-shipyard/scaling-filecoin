@@ -309,23 +309,24 @@ blocks:
     background:
       fillStyles: bg-black
     label: ''
-    headline: Early spacenet performance numbers
+    headline: Alpha performance targets
     subhead: ''
     body: ''
     items:
       - headline: 1 s
         subhead: ''
         text: |
-          Trantor subnet latency
+          Subnet latency
         link: ''
         buttonLabel: ''
       - headline: '1000'
         subhead: ''
         text: |
-          Trantor subnet TPS
-      - headline: 100s
+          Subnet TPS
+      - headline: '100'
         subhead: ''
-        text: "Subnets supported **\U0001F51C**\n"
+        text: |
+          Subnets
     navigationLabel: ''
     _template: textCards
   - style:
