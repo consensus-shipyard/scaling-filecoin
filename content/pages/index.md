@@ -394,6 +394,8 @@ blocks:
     _template: eventList
 meta:
   pageTitle: Scaling Filecoin
-  pageDescription: Scaling Filecoin
+  pageDescription: Interplanetary Consensus
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1669682333/scaling-filecoin/social_g3isvw.png
 ---
 
