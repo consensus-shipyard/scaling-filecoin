@@ -1,6 +1,6 @@
 {
-  "siteUrl": "scaling-filecoin.vercel.app",
-  "gtmId": "",
+  "siteUrl": "fil.space",
+  "gtmId": "G-WVTJC18T51",
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
   "desktopWidth": "1220",
   "colors": {
@@ -141,7 +141,7 @@
       "label": "",
       "headline": "",
       "subhead": "",
-      "body": "Made with love by [ConsensusLab](https://consensuslab.world/ \"\") 🤍\n",
+      "body": "Made with love by [ConsensusLab](https://consensuslab.world/) 🤍\n",
       "_template": "banner"
     }
   ]
