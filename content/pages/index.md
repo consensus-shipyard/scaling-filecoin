@@ -178,6 +178,9 @@ blocks:
         link: >-
           https://research.protocol.ai/publications/mir-bft-scalable-and-robust-bft-for-decentralized-networks/vukolic2022.pdf
         type: primary
+      - label: Spec
+        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
+        type: primary
       - label: Code
         link: 'https://github.com/filecoin-project/mir'
         type: primary
