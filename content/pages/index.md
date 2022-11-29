@@ -84,7 +84,9 @@ blocks:
           IPC is complementary to the programmability introduced by FVM: it
           provides a framework to further program the Filecoin network,
           accommodating a variety of use cases while overcoming potential
-          consensus bottlenecks.
+          consensus bottlenecks, to load balance decentralised applications by
+          spawning new blockchain substrates on-demand, and to tailor the system
+          to better fit application needs.
     navigationLabel: ''
     _template: textCards
   - style:
@@ -123,13 +125,16 @@ blocks:
     headline: Interplanetary Consensus
     subhead: ''
     body: >
-      Unlike traditional sharding designs, based on partitioning the state of
-      the network, our solution centres on the concept of subnets, organised in
-      a hierarchy, that can be spawned on-demand to manage new state. Child
-      subnets are firewalled from parent subnets, have their own specific
-      policies, and run a different consensus algorithm, increasing the network
-      capacity and enabling new applications. Nevertheless, they benefit from
-      the security of parent subnets by periodically checkpointing state.
+      Unlike traditional sharding designs, based on the explicit partitioning of
+      the network’s state, our solution centres on the concept of subnets that
+      can be spawned on-demand to manage new state. Subnets are organised in a
+      hierarchy, in which parent subnets are firewalled from child subnets, have
+      their own policies, and run a different consensus algorithm, increasing
+      the network’s capacity and enabling new applications. Subnets leverage the
+      security of parent subnets by periodically checkpointing state and include
+      mechanisms to interact with other subnets in the system. IPC subnets can
+      be configured to resemble different L2 platforms: from an optimistic or
+      ZK-rollup, to a side-chain with a native communication bridge.
     buttons:
       - label: Paper
         link: >-
@@ -198,7 +203,7 @@ blocks:
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
-      columns: '3'
+      columns: '4'
       labelStyles: 'text-black undefined text-xl mb-0 '
       headlineStyles: 'text-black undefined text-4xl mb-10 '
       subheadStyles: 'text-black undefined text-3xl mb-0 '
@@ -226,9 +231,8 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1669079002/scaling-filecoin/hardware-chip-outline_z7kkoj.svg
         headline: Computation
-        text: >
-          Have a decentralised computation job to run? Spawn an ephemeral subnet
-          according to application-specific requirements.
+        text: |
+          Spawn ephemeral subnets to run distributed computation jobs.
         link: ''
         buttonLabel: ''
       - image:
@@ -249,6 +253,15 @@ blocks:
           in geographically constrained settings.
         link: ''
         buttonLabel: ''
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1669156809/scaling-filecoin/cloud-offline-outline_yweylq.svg
+        label: ''
+        headline: Partition tolerance
+        subhead: ''
+        text: >
+          Deploy blockchain substrates in mobile settings or environments with
+          limited connectivity.
     navigationLabel: Applications
     _template: photoCards
   - style:
@@ -273,7 +286,7 @@ blocks:
     navigationLabel: Spacenet
     _template: banner
   - style:
-      textAlignment: text-left
+      textAlignment: text-center
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
@@ -296,24 +309,24 @@ blocks:
     background:
       fillStyles: bg-black
     label: ''
-    headline: ''
+    headline: Alpha performance targets
     subhead: ''
     body: ''
     items:
       - headline: 1 s
         subhead: ''
         text: |
-          Epochs
+          Subnet latency
         link: ''
         buttonLabel: ''
-      - headline: '???'
+      - headline: '1000'
         subhead: ''
         text: |
-          TPS
-      - headline: 1000s
+          Subnet TPS
+      - headline: '100'
         subhead: ''
         text: |
-          Subnets supported
+          Subnets
     navigationLabel: ''
     _template: textCards
   - style:
