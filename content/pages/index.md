@@ -120,7 +120,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1668821498/scaling-filecoin/hc-paper_dhjbzd.png
+        https://res.cloudinary.com/protocolai/image/upload/v1668821514/scaling-filecoin/hc-paper_tydazy.png
     label: ''
     headline: Interplanetary Consensus
     subhead: ''
@@ -149,7 +149,7 @@ blocks:
   - style:
       alignment: 'flex-row text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-10 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-20 pb-28 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: 'text-primary font-1 text-sm mb-0 '
@@ -177,6 +177,9 @@ blocks:
       - label: Paper
         link: >-
           https://research.protocol.ai/publications/mir-bft-scalable-and-robust-bft-for-decentralized-networks/vukolic2022.pdf
+        type: primary
+      - label: Spec
+        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
         type: primary
       - label: Code
         link: 'https://github.com/filecoin-project/mir'
