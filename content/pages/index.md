@@ -161,7 +161,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1669826330/scaling-filecoin/mir-repo_erfz7r.png
+        https://res.cloudinary.com/protocolai/image/upload/v1669827012/scaling-filecoin/mir-repo_zuh0g5.png
     label: ''
     headline: Mir and Trantor
     subhead: ''
@@ -178,7 +178,7 @@ blocks:
         link: 'https://github.com/filecoin-project/mir'
         type: primary
       - label: Trantor
-        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
+        link: 'https://github.com/filecoin-project/mir/tree/main/pkg/systems/trantor'
         type: primary
     navigationLabel: ''
     _template: feature
