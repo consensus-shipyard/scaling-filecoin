@@ -161,7 +161,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1668821864/scaling-filecoin/mir-paper_hs5tye.png
+        https://res.cloudinary.com/protocolai/image/upload/v1669826330/scaling-filecoin/mir-repo_erfz7r.png
     label: ''
     headline: Mir and Trantor
     subhead: ''
@@ -174,10 +174,6 @@ blocks:
       configuration. It multiplexes multiple instances of a leader-driven
       consensus protocol which operate concurrently and almost independently.
     buttons:
-      - label: Paper
-        link: >-
-          https://research.protocol.ai/publications/mir-bft-scalable-and-robust-bft-for-decentralized-networks/vukolic2022.pdf
-        type: primary
       - label: Spec
         link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
         type: primary
