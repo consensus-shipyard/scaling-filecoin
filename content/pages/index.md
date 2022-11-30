@@ -178,7 +178,7 @@ blocks:
         link: 'https://github.com/filecoin-project/mir'
         type: primary
       - label: Trantor
-        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
+        link: 'https://github.com/filecoin-project/mir/tree/main/pkg/systems/trantor'
         type: primary
     navigationLabel: ''
     _template: feature
