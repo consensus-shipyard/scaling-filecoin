@@ -174,11 +174,11 @@ blocks:
       configuration. It multiplexes multiple instances of a leader-driven
       consensus protocol which operate concurrently and almost independently.
     buttons:
-      - label: Spec
-        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
-        type: primary
-      - label: Code
+      - label: Mir
         link: 'https://github.com/filecoin-project/mir'
+        type: primary
+      - label: Trantor
+        link: 'https://github.com/protocol/ConsensusLab/blob/main/specs/trantor.md'
         type: primary
     navigationLabel: ''
     _template: feature
