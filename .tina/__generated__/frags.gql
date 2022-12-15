@@ -908,6 +908,7 @@ fragment PagesParts on Pages {
         eventDate
         eventName
         summary
+        is_done
       }
       navigationLabel
     }

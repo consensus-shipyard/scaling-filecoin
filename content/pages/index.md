@@ -377,6 +377,7 @@ blocks:
           Spacenet launches as a long-running testnet with Mir and Trantor as
           its beating heart. Users can issue transactions and leverage the
           higher-frequency BFT consensus.
+        is_done: true
       - eventDate: 'Feb 2023 '
         eventName: 'M2: IPC deployed onto Spacenet'
         summary: >-

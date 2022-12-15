@@ -1099,6 +1099,7 @@ type PagesBlocksEventListItems {
   eventDate: String
   eventName: String
   summary: String
+  is_done: Boolean
 }
 
 type PagesBlocksEventList {
@@ -2170,6 +2171,7 @@ input PagesBlocksEventListItemsMutation {
   eventDate: String
   eventName: String
   summary: String
+  is_done: Boolean
 }
 
 input PagesBlocksEventListMutation {

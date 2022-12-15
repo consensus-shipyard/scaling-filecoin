@@ -19765,6 +19765,18 @@
                         "items",
                         "summary"
                       ]
+                    },
+                    {
+                      "type": "boolean",
+                      "label": "Is Done",
+                      "name": "is_done",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventList",
+                        "items",
+                        "is_done"
+                      ]
                     }
                   ],
                   "namespace": [
