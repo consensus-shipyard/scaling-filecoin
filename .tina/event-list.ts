@@ -195,6 +195,11 @@ export const eventListBlockSchema: TinaTemplate = {
           label: "Summary",
           name: "summary",
         },
+        {
+          type: "boolean",
+          label: "Is Done",
+          name: "is_done",
+        },
       ],
     },
     navigationLabelSchema,
