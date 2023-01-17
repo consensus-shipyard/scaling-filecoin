@@ -378,18 +378,24 @@ blocks:
           its beating heart. Users can issue transactions and leverage the
           higher-frequency BFT consensus.
         is_done: true
-      - eventDate: 'Feb 2023 '
+      - eventDate: 'Mar 2023 '
         eventName: 'M2: IPC deployed onto Spacenet'
         summary: >-
           Subnets support is added to Spacenet. Developers can now use Spacenet
           to test applications with custom requirements or generating high
           transaction volume. 
-      - eventDate: End 2023
+      - eventDate: Jun 2023
         eventName: 'M3: Spacenet docks with Filecoin mainnet'
         summary: >-
+          Spacenet anchors to Filecoin mainnet using FEVM Solidity actors,
+          enabling early users to run applications with a subset of features and
+          informing the development of user tooling. 
+      - eventDate: Sep 2023
+        eventName: 'M4: General availability on Filecoin mainnet'
+        summary: >-
           FVM Milestone 2.2 unlocks the ability to deploy Wasm actors on
-          Filecoin mainnet. Spacenet anchors to Filecoin mainnet, enabling
-          seamless interaction with existing Filecoin storage and applications.
+          Filecoin mainnet. Wasm actors and user tooling enable seamless
+          interaction with existing Filecoin storage and applications.
     navigationLabel: Roadmap
     _template: eventList
 meta:
