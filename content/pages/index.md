@@ -22,7 +22,7 @@ blocks:
     label: ''
     headline: Scaling Filecoin
     subhead: >-
-      Interplanetary consensus is the next frontier in blockchain scalability,
+      IPC is the next frontier in blockchain scalability,
       unlocking unmatched capacity and enabling new use cases.
     body: ''
     _template: feature
@@ -399,8 +399,8 @@ blocks:
     navigationLabel: Roadmap
     _template: eventList
 meta:
-  pageTitle: Scaling Filecoin
-  pageDescription: Interplanetary Consensus
+  pageTitle: Interplanetary Consensus
+  pageDescription: Scaling Filecoin Horizontally
   siteImageSrc: >-
     https://res.cloudinary.com/protocolai/image/upload/v1669682333/scaling-filecoin/social_g3isvw.png
 ---
