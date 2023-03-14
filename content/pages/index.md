@@ -372,26 +372,26 @@ blocks:
     body: ''
     items:
       - eventDate: Nov 2022
-        eventName: 'M1: Spacenet launches with Mir and Trantor'
+        eventName: 'M0: Spacenet launches with Mir and Trantor'
         summary: >-
           Spacenet launches as a long-running testnet with Mir and Trantor as
           its beating heart. Users can issue transactions and leverage the
           higher-frequency BFT consensus.
         is_done: true
       - eventDate: 'Mar 2023 '
-        eventName: 'M2: IPC deployed onto Spacenet'
+        eventName: 'M1: IPC deployed onto Spacenet'
         summary: >-
           Subnets support is added to Spacenet. Developers can now use Spacenet
           to test applications with custom requirements or generating high
           transaction volume. 
       - eventDate: Jun 2023
-        eventName: 'M3: Spacenet docks with Filecoin mainnet'
+        eventName: 'M2: Spacenet docks with Filecoin mainnet'
         summary: >-
           Spacenet anchors to Filecoin mainnet using FEVM Solidity actors,
           enabling early users to run applications with a subset of features and
           informing the development of user tooling. 
       - eventDate: Sep 2023
-        eventName: 'M4: General availability on Filecoin mainnet'
+        eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
           FVM Milestone 2.2 unlocks the ability to deploy Wasm actors on
           Filecoin mainnet. Wasm actors and user tooling enable seamless
