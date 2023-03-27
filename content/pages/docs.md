@@ -15,7 +15,7 @@ blocks:
     headline: Docs
     subhead: ''
     body: |
-      This is a rich text component you can add hyperlinks, etc.
+      This is a rich text component you can add hyperlinks, etc. Test.
     _template: feature
 ---
 

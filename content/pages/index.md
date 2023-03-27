@@ -90,6 +90,21 @@ blocks:
     navigationLabel: ''
     _template: textCards
   - style:
+      fullWidth: false
+      minHeight: min-h-0
+      padding: pt-0 pb-24 pr-0 pl-0
+    background:
+      fillStyles: bg-black
+    markup: >-
+      <div class="w-full"><div class="max-w-desktop-full px-10 mx-auto"><div
+      class="relative w-full h-0 overflow-hidden"
+      style="padding-top:50%"><iframe class="absolute inset-0" width="100%"
+      height="100%" src="https://www.youtube.com/embed/aRyj9kOvW7I"
+      title="YouTube video player" frameborder="0" allow="accelerometer;
+      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""></iframe></div></div></div>
+    _template: embed
+  - style:
       textAlignment: text-left
       minHeight: min-h-0
       padding: pt-20 pb-20 pr-10 pl-5
@@ -136,14 +151,10 @@ blocks:
       be configured to resemble different L2 platforms: from an optimistic or
       ZK-rollup, to a side-chain with a native communication bridge.
     buttons:
-      - label: Paper
+      - label: Design reference
         link: >-
-          https://research.protocol.ai/publications/hierarchical-consensus-a-horizontal-scaling-framework-for-blockchains/delarocha2022.pdf
-        type: primary
-      - label: Spec
-        link: >-
-          https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical_consensus.md
-        type: primary
+          https://github.com/consensus-shipyard/IPC-design-reference-spec/raw/main/main.pdf
+        type: primary           
     navigationLabel: ''
     _template: feature
   - style:
@@ -212,7 +223,7 @@ blocks:
       fillStyles: bg-primary
       padding: pt-5 pb-5 pr-0 pl-0
       type: transparent
-      imageStyles: h-14 object-contain object-left mb-3
+      imageStyles: 'h-14 object-contain object-left mb-3 '
       labelStyles: 'text-black undefined text-sm mb-0 '
       headlineStyles: 'text-black undefined text-2xl mb-4 '
       subheadStyles: 'text-black undefined text-lg mb-0 '
@@ -301,14 +312,14 @@ blocks:
       type: solid
       borderStyles: border-primary border-0
       labelStyles: 'text-primary undefined text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-7xl mb-7 '
+      headlineStyles: 'text-primary font-1 text-7xl mb-7 text-center'
       subheadStyles: 'text-primary undefined text-lg mb-0 '
-      textStyles: 'text-primary undefined text-xl mb-5 '
+      textStyles: 'text-primary undefined text-xl mb-5 text-center '
       buttonType: secondary
     background:
       fillStyles: bg-black
     label: ''
-    headline: Alpha performance targets
+    headline: M3 performance targets
     subhead: ''
     body: ''
     items:
@@ -328,28 +339,6 @@ blocks:
           Subnets
     navigationLabel: ''
     _template: textCards
-  - style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: 'pt-10 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
-      width: normal
-      labelStyles: 'text-primary undefined text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-5xl mb-0 '
-      subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-10 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: from-accent2 to-accent3 bg-gradient-to-r
-    label: ''
-    headline: ''
-    subhead: ''
-    body: ''
-    buttons:
-      - label: Ready to lift off?
-        link: 'https://github.com/consensus-shipyard/spacenet'
-        type: secondary
-    navigationLabel: ''
-    _template: banner
   - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1669080071/scaling-filecoin/scaling-filecoin-trees-background_semi_kqsfit.png
@@ -378,7 +367,7 @@ blocks:
           its beating heart. Users can issue transactions and leverage the
           higher-frequency BFT consensus.
         is_done: true
-      - eventDate: 'Mar 2023 '
+      - eventDate: 'Apr 2023 '
         eventName: 'M1: IPC deployed onto Spacenet'
         summary: >-
           Subnets support is added to Spacenet. Developers can now use Spacenet
@@ -398,6 +387,28 @@ blocks:
           interaction with existing Filecoin storage and applications.
     navigationLabel: Roadmap
     _template: eventList
+  - style:
+      textAlignment: text-center
+      minHeight: min-h-0
+      padding: 'pt-10 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
+      width: normal
+      labelStyles: 'text-primary undefined text-3xl mb-0 '
+      headlineStyles: 'text-white undefined text-5xl mb-0 '
+      subheadStyles: 'text-primary undefined text-3xl mb-0 '
+      textStyles: 'text-primary undefined text-3xl mb-10 '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: from-accent2 to-accent3 bg-gradient-to-r
+    label: ''
+    headline: ''
+    subhead: ''
+    body: ''
+    buttons:
+      - label: "Ready to lift off?"
+        link: 'https://github.com/consensus-shipyard/spacenet'
+        type: secondary
+    navigationLabel: ''
+    _template: banner
 meta:
   pageTitle: Interplanetary Consensus
   pageDescription: Scaling Filecoin Horizontally
