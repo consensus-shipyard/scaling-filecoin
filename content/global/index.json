@@ -113,12 +113,12 @@
         {
           "headline": "",
           "subhead": "GitHub",
-          "text": "[Spacenet](https://github.com/consensus-shipyard/spacenet)\n\n[Mir](https://github.com/filecoin-project/mir)\n\n[ConsensusLab](https://github.com/protocol/consensuslab)\n"
+          "text": "[Consensus Shipyard](https://github.com/consensus-shipyard/)\n\n[ConsensusLab](https://github.com/protocol/consensuslab)\n"
         },
         {
           "headline": "",
           "subhead": "Resources",
-          "text": "[Spec](https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical\\_consensus.md)\n\n[FIP](https://github.com/filecoin-project/FIPs/discussions/419)\n\n[Discussions](https://github.com/protocol/ConsensusLab/discussions)\n"
+          "text": "[Spacenet](https://github.com/consensus-shipyard/spacenet)\n"
         }
       ],
       "_template": "textCards"
@@ -141,7 +141,7 @@
       "label": "",
       "headline": "",
       "subhead": "",
-      "body": "Made with love by [ConsensusLab](https://consensuslab.world/) 🤍\n",
+      "body": "​© Protocol Labs, Inc. | Except as [noted](https://research.protocol.ai/terms-of-service), content licensed [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). | [Terms of service](https://research.protocol.ai/terms-of-service) |[ Privacy policy](https://research.protocol.ai/privacy-policy)\n",
       "_template": "banner"
     }
   ]

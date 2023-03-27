@@ -155,13 +155,6 @@ export const Layout = ({
           {/* Footer Blocks */}
           <footer>
             <Blocks { ...globalData } />
-            <div className="bg-black text-white px-10 pb-6">
-              <ul className="justify-center flex gap-6 mx-auto text-sm">
-                <li><a className="underline" target="_blank" href="https://discuss.ipfs.tech/tos">Terms of Use</a></li>
-                <li><a className="underline" target="_blank" href="https://discuss.ipfs.tech/privacy">Privacy Policy</a></li>
-                <li><a className="underline" target="_blank" href="https://ipfs.tech/legal/">DMCA Policy</a></li>
-              </ul>
-            </div>
           </footer>
         </div>
       </ThemeContext.Provider>

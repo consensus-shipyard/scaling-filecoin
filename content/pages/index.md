@@ -151,14 +151,10 @@ blocks:
       be configured to resemble different L2 platforms: from an optimistic or
       ZK-rollup, to a side-chain with a native communication bridge.
     buttons:
-      - label: Paper
+      - label: Design reference
         link: >-
-          https://research.protocol.ai/publications/hierarchical-consensus-a-horizontal-scaling-framework-for-blockchains/delarocha2022.pdf
-        type: primary
-      - label: Spec
-        link: >-
-          https://github.com/protocol/ConsensusLab/blob/main/specs/hierarchical_consensus.md
-        type: primary
+          https://github.com/consensus-shipyard/IPC-design-reference-spec/raw/main/main.pdf
+        type: primary           
     navigationLabel: ''
     _template: feature
   - style:
@@ -396,11 +392,10 @@ blocks:
       minHeight: min-h-0
       padding: 'pt-10 pb-20 pr-28 pl-28 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       width: normal
-      labelStyles: 'text-primary undefined text-xl mb-0 '
+      labelStyles: 'text-primary undefined text-3xl mb-0 '
       headlineStyles: 'text-white undefined text-5xl mb-0 '
       subheadStyles: 'text-primary undefined text-3xl mb-0 '
-      textStyles: 'text-primary undefined text-lg mb-10 '
-      buttonStyles: 'pt-10 '
+      textStyles: 'text-primary undefined text-3xl mb-10 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: from-accent2 to-accent3 bg-gradient-to-r
