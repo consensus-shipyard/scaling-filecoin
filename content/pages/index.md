@@ -154,6 +154,10 @@ blocks:
       - label: Design reference
         link: >-
           https://github.com/consensus-shipyard/IPC-design-reference-spec/raw/main/main.pdf
+        type: primary   
+      - label: IPC Agent
+        link: >-
+          https://github.com/consensus-shipyard/ipc-agent
         type: primary           
     navigationLabel: ''
     _template: feature
