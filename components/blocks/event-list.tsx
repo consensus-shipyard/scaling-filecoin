@@ -3,12 +3,12 @@ import { Events } from "../events";
 const Event = ({ data, index, parentField = ""  }) => {
 
   let dotSVG = <svg width="58" height="58" viewBox="0 0 58 58" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="29" cy="29" r="27.5" stroke="#006FEC" stroke-width="2"/>
+                <circle cx="29" cy="29" r="27.5" stroke="#006FEC" strokeWidth="2"/>
                 <circle cx="29" cy="29" r="20" fill="#0090FF"/>
               </svg>
   if (data.is_done){
     dotSVG = <svg width="58" height="58" viewBox="0 0 58 58" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="29" cy="29" r="27.5" stroke="#006FEC" stroke-width="2"/>
+                <circle cx="29" cy="29" r="27.5" stroke="#006FEC" strokeWidth="2"/>
                 <svg width="40" height="40" x="9" y="9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" fill="#0090FF"/></svg>
               </svg>
   } else {

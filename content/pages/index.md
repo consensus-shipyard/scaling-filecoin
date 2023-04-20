@@ -155,10 +155,14 @@ blocks:
         link: >-
           https://github.com/consensus-shipyard/IPC-design-reference-spec/raw/main/main.pdf
         type: primary   
+      - label: Docs
+        link: >-
+          https://docs.filecoin.io/basics/interplanetary-consensus/overview/
+        type: primary               
       - label: IPC Agent
         link: >-
           https://github.com/consensus-shipyard/ipc-agent
-        type: primary           
+        type: primary                       
     navigationLabel: ''
     _template: feature
   - style:
@@ -294,9 +298,9 @@ blocks:
     headline: Spacenet
     subhead: >-
       An early builder testnet for Interplanetary Consensus, Mir, and Trantor.
-      High throughput and low latency with smart contract capabilities, powered
-      by FVM. 
-    body: "Spacenet is not\_just another\_Filecoin testnet. By adopting a high-performance consensus implementation of Trantor over Mir, we have increased the network's throughput while reducing the block time to around 1 second.  As FVM onboards a gamut of new applications to the Filecoin network, many use cases will have requirements beyond what Filecoin can accommodate. Spacenet provides developers with a testbed to deploy those FVM use cases and innovate with new Web3 applications. Once IPC is released in Spacenet, in early 2023, developers will be able to deploy their own subnets from Spacenet while maintaining the ability to seamlessly interact with state and applications in the original network.\n"
+      High throughput and lower  latency with smart contract capabilities, powered
+      by FVM. By bundling IPC and FVM support, Spacenet provides developers with a testbed to deploy FVM use cases that aren't supported by the Filecoin mainnet.
+    body: ''
     navigationLabel: Spacenet
     _template: banner
   - style:
@@ -377,6 +381,7 @@ blocks:
           Subnets support is added to Spacenet. Developers can now use Spacenet
           to test applications with custom requirements or generating high
           transaction volume. 
+        is_done: true
       - eventDate: Jun 2023
         eventName: 'M2: Spacenet docks with Filecoin mainnet'
         summary: >-
@@ -409,7 +414,7 @@ blocks:
     body: ''
     buttons:
       - label: "Ready to lift off?"
-        link: 'https://github.com/consensus-shipyard/spacenet'
+        link: 'https://github.com/consensus-shipyard/ipc-agent/'
         type: secondary
     navigationLabel: ''
     _template: banner
