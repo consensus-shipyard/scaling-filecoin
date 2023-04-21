@@ -118,8 +118,7 @@
         {
           "headline": "",
           "subhead": "Resources",
-          "text": "[Spacenet](https://github.com/consensus-shipyard/spacenet)\n",
-          "text": "[Docs](https://docs.filecoin.io/basics/interplanetary-consensus/overview/)\n"
+          "text": "[Spacenet](https://github.com/consensus-shipyard/spacenet)\n\n[Docs](https://docs.filecoin.io/basics/interplanetary-consensus/overview/)\n"
         }
       ],
       "_template": "textCards"
