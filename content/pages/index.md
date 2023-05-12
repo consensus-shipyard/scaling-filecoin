@@ -197,7 +197,7 @@ blocks:
         link: 'https://github.com/filecoin-project/mir'
         type: primary
       - label: Trantor
-        link: 'https://github.com/filecoin-project/mir/tree/main/pkg/systems/trantor'
+        link: 'https://github.com/filecoin-project/mir/tree/main/pkg/trantor'
         type: primary
     navigationLabel: ''
     _template: feature
