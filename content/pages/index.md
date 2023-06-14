@@ -397,13 +397,13 @@ blocks:
           and fraud proofs. Experienced users can confidently deploy and use 
           IPC subnets but the UX will not support mass adoption. 
       - eventDate: tbd
-        eventName: 'M4: User and operator tooling'
+        eventName: 'M4: User, developer, and operator tooling'
         summary: >-
           Improved tooling and convenience services provided by ecosystem partners
           allow for easy deployment and interaction with subnets. SDKs are provided
           for builders wanting to deploy applications and manage subnets.
       - eventDate: tbd
-        eventName: 'M5: Ecosystem, tooling, and continuous improvement'
+        eventName: 'M5: Continuous improvement'
         summary: >-
           Continued improvements will include support for custom consensus mechanisms,
           cross-network atomic transactions, and IPC-native wallets. Tooling continues
