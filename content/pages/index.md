@@ -389,20 +389,20 @@ blocks:
           wallet support, smart contract deployment, and tooling for subnet operations. 
           Mind the dragons, though: the protocol and code haven't been audited and
           shouldn't be used with any significant value.
-      - eventDate: ""
+      - eventDate: tbd
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
           The algorithms and implemnetation are audited and verified. The base
           cryptoeconomic model is designed and implemented, alongside slashing
           and fraud proofs. Experienced users can confidently deploy and use 
           IPC subnets but the UX will not support mass adoption. 
-      - eventDate: ""
+      - eventDate: tbd
         eventName: 'M4: User and operator tooling'
         summary: >-
           Improved tooling and convenience services provided by ecosystem partners
           allow for easy deployment and interaction with subnets. SDKs are provided
           for builders wanting to deploy applications and manage subnets.
-      - eventDate: ""
+      - eventDate: tbd
         eventName: 'M5: Ecosystem, tooling, and continuous improvement'
         summary: >-
           Continued improvements will include support for custom consensus mechanisms,
