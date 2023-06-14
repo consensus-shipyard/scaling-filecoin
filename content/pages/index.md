@@ -337,7 +337,7 @@ blocks:
           Subnet latency
         link: ''
         buttonLabel: ''
-      - headline: '1000'
+      - headline: '5000'
         subhead: ''
         text: |
           Subnet TPS
@@ -382,18 +382,32 @@ blocks:
           to test applications with custom requirements or generating high
           transaction volume. 
         is_done: true
-      - eventDate: Jun 2023
-        eventName: 'M2: Spacenet docks with Filecoin mainnet'
+      - eventDate: Jul 2023
+        eventName: 'M2: Functional demonstrator on Filecoin mainnet'
         summary: >-
-          Spacenet anchors to Filecoin mainnet using FEVM Solidity actors,
-          enabling early users to run applications with a subset of features and
-          informing the development of user tooling. 
-      - eventDate: Sep 2023
+          Solidity actors enable alpha subnet support on mainnet, with basic 
+          wallet support, smart contract deployment, and tooling for subnet operations. 
+          Mind the dragons, though: the protocol and code haven't been audited and
+          shouldn't be used with any significant value.
+      - eventDate: ""
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
-          FVM Milestone 2.2 unlocks the ability to deploy Wasm actors on
-          Filecoin mainnet. Wasm actors and user tooling enable seamless
-          interaction with existing Filecoin storage and applications.
+          The algorithms and implemnetation are audited and verified. The base
+          cryptoeconomic model is designed and implemented, alongside slashing
+          and fraud proofs. Experienced users can confidently deploy and use 
+          IPC subnets but the UX will not support mass adoption. 
+      - eventDate: ""
+        eventName: 'M4: User and operator tooling'
+        summary: >-
+          Improved tooling and convenience services provided by ecosystem partners
+          allow for easy deployment and interaction with subnets. SDKs are provided
+          for builders wanting to deploy applications and manage subnets.
+      - eventDate: ""
+        eventName: 'M5: Ecosystem, tooling, and continuous improvement'
+        summary: >-
+          Continued improvements will include support for custom consensus mechanisms,
+          cross-network atomic transactions, and IPC-native wallets. Tooling continues
+          to be improved, and new feautures are implemented based on user feedback. 
     navigationLabel: Roadmap
     _template: eventList
   - style:
