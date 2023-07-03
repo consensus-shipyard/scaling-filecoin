@@ -379,7 +379,7 @@ blocks:
         eventName: 'M1: IPC deployed onto Spacenet'
         summary: >-
           Subnets support is added to Spacenet. Developers can now use Spacenet
-          to test applications with custom requirements or generating high
+          to test applications with custom requirements or with high
           transaction volume. 
         is_done: true
       - eventDate: Jul 2023
@@ -392,7 +392,7 @@ blocks:
       - eventDate: tbd
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
-          The algorithms and implemnetation are audited and verified. The base
+          The algorithms and implementation are audited and verified. The base
           cryptoeconomic model is designed and implemented, alongside slashing
           and fraud proofs. Experienced users can confidently deploy and use 
           IPC subnets but the UX will not support mass adoption. 
@@ -407,7 +407,7 @@ blocks:
         summary: >-
           Continued improvements will include support for custom consensus mechanisms,
           cross-network atomic transactions, and IPC-native wallets. Tooling continues
-          to be improved, and new feautures are implemented based on user feedback. 
+          to be improved, and new features are implemented based on user feedback. 
     navigationLabel: Roadmap
     _template: eventList
   - style:
