@@ -389,6 +389,7 @@ blocks:
           wallet support, smart contract deployment, and tooling for subnet operations. 
           Mind the dragons, though: the protocol and code haven't been audited and
           shouldn't be used with any significant value.
+        is_done: true          
       - eventDate: tbd
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
