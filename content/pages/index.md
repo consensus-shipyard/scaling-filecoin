@@ -122,7 +122,7 @@ blocks:
     _template: banner
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
+      featureContent: 'w-full min-h-0 '
       padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
@@ -133,9 +133,6 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1668821514/scaling-filecoin/hc-spec_kzfldp.png
     label: ''
     headline: Interplanetary Consensus
     subhead: ''
@@ -166,21 +163,18 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
-      alignment: 'flex-row text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-28 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-full min-h-0 '
+      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: 'text-primary font-1 text-sm mb-0 '
       headlineStyles: 'text-primary font-1 text-4xl mb-7 '
       subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-7 '
+      textStyles: 'text-primary font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1669827012/scaling-filecoin/mir-repo_zuh0g5.png
     label: ''
     headline: Mir and Trantor
     subhead: ''
