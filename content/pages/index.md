@@ -393,10 +393,10 @@ blocks:
       - eventDate: Jan 2024
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
-          The algorithms and implementation are audited and verified. The base
-          cryptoeconomic model is designed and implemented, alongside slashing
-          and fraud proofs. Experienced users can confidently deploy and use 
-          IPC subnets but the UX will not support mass adoption. 
+          IPC switches over to the Fendermint node implementation. The IPC actors
+          are audited and safe. The base cryptoeconomic model is designed and implemented,
+          alongside slashing and fraud proofs. Experienced users can confidently deploy and use 
+          IPC subnets in production but the UX will not support mass adoption. 
       - eventDate: tbd
         eventName: 'M4: User, developer, and operator tooling'
         summary: >-
