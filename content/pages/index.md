@@ -285,27 +285,6 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: 'pt-20 pb-20 pr-28 pl-28 sm:pt-14 sm:pb-14 sm:pr-5 sm:pl-5'
-      width: normal
-      labelStyles: 'text-primary undefined text-xl mb-0 '
-      headlineStyles: 'text-white undefined text-5xl mb-7 '
-      subheadStyles: 'text-primary undefined text-xl mb-7 '
-      textStyles: 'text-primary undefined text-base mb-0 '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: from-accent2 to-accent3 bg-gradient-to-r
-    label: ''
-    headline: Spacenet
-    subhead: >-
-      An early builder testnet for Interplanetary Consensus, Mir, and Trantor.
-      High throughput and lower  latency with smart contract capabilities, powered
-      by FVM. By bundling IPC and FVM support, Spacenet provides developers with a testbed to deploy FVM use cases that aren't supported by the Filecoin mainnet.
-    body: ''
-    navigationLabel: Spacenet
-    _template: banner
-  - style:
-      textAlignment: text-center
-      minHeight: min-h-0
       padding: pt-10 pb-10 pr-5 pl-5
       contentWidth: w-full
       columns: '3'
@@ -383,9 +362,9 @@ blocks:
           transaction volume. 
         is_done: true
       - eventDate: Jul 2023
-        eventName: 'M2: Functional demonstrator on Filecoin mainnet'
+        eventName: 'M2: Functional demonstrator on Filecoin calibration'
         summary: >-
-          Solidity actors enable alpha subnet support on mainnet, with basic 
+          Solidity actors enable alpha subnet support on Filecoin, with basic 
           wallet support, smart contract deployment, and tooling for subnet operations. 
           Mind the dragons, though: the protocol and code haven't been audited and
           shouldn't be used with any significant value.

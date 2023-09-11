@@ -113,12 +113,12 @@
         {
           "headline": "",
           "subhead": "GitHub",
-          "text": "[Consensus Shipyard](https://github.com/consensus-shipyard/)\n\n[ConsensusLab](https://github.com/protocol/consensuslab)\n"
+          "text": "[Consensus Shipyard](https://github.com/consensus-shipyard/)\n"
         },
         {
           "headline": "",
           "subhead": "Resources",
-          "text": "[Spacenet](https://github.com/consensus-shipyard/spacenet)\n\n[Docs](https://docs.filecoin.io/basics/interplanetary-consensus/overview/)\n"
+          "text": "[Docs](https://docs.filecoin.io/basics/interplanetary-consensus/overview/)\n"
         }
       ],
       "_template": "textCards"
