@@ -187,7 +187,6 @@ blocks:
       - label: GitHub
         link: 'https://github.com/consensus-shipyard/fendermint'
         type: primary
-    buttons:
       - label: Early demo
         link: 'https://www.youtube.com/watch?v=rr9xVQ_sTeg'
         type: primary       
