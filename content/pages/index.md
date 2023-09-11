@@ -390,7 +390,7 @@ blocks:
           Mind the dragons, though: the protocol and code haven't been audited and
           shouldn't be used with any significant value.
         is_done: true          
-      - eventDate: tbd
+      - eventDate: Jan 2024
         eventName: 'M3: General availability on Filecoin mainnet'
         summary: >-
           The algorithms and implementation are audited and verified. The base
