@@ -109,10 +109,10 @@ blocks:
       minHeight: min-h-0
       padding: pt-20 pb-20 pr-10 pl-5
       width: normal
-      labelStyles: 'text-black font-1 text-sm mb-0 '
-      headlineStyles: 'text-black font-1 text-5xl mb-0 '
-      subheadStyles: 'text-black font-1 text-3xl mb-0 '
-      textStyles: 'text-black font-1 undefined mb-0 '
+      labelStyles: 'text-primary font-1 text-sm mb-0 '
+      headlineStyles: 'text-primary font-1 text-5xl mb-0 '
+      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
+      textStyles: 'text-primary font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
     label: ''
     headline: Components
@@ -126,13 +126,11 @@ blocks:
       padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-5 '
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
     label: ''
     headline: Interplanetary Consensus
     subhead: ''
@@ -165,16 +163,14 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-full min-h-0 '
-      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-5 '
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
     label: ''
     headline: Fendermint
     subhead: ''
@@ -195,16 +191,14 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-full min-h-0 '
-      padding: 'pt-10 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-20 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-5 '
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
     label: ''
     headline: Mir and Trantor
     subhead: ''
