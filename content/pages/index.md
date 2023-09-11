@@ -92,7 +92,7 @@ blocks:
   - style:
       fullWidth: false
       minHeight: min-h-0
-      padding: pt-0 pb-24 pr-0 pl-0
+      padding: pt-0 pb-20 pr-0 pl-0
     background:
       fillStyles: bg-black
     markup: >-
@@ -107,7 +107,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-20 pr-10 pl-5
+      padding: pt-20 pb-5 pr-10 pl-5
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
@@ -122,20 +122,15 @@ blocks:
     _template: banner
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureContent: 'w-full min-h-0 '
+      padding: 'pt-5 pb-5 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-5 '
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1668821514/scaling-filecoin/hc-spec_kzfldp.png
     label: ''
     headline: Interplanetary Consensus
     subhead: ''
@@ -166,21 +161,44 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
-      alignment: 'flex-row text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-28 pr-5 pl-32 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-full min-h-0 '
+      padding: 'pt-5 pb-5 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: 'text-primary font-1 text-sm mb-0 '
-      headlineStyles: 'text-primary font-1 text-4xl mb-7 '
-      subheadStyles: 'text-primary font-1 text-3xl mb-0 '
-      textStyles: 'text-primary font-1 text-base mb-7 '
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1669827012/scaling-filecoin/mir-repo_zuh0g5.png
+    label: ''
+    headline: Fendermint
+    subhead: ''
+    body: >
+      Fendermint is an effort to implement IPC with Tendermint. 
+      It combines FVM, IPLD, and CometBFT to provide a robust 
+      subnet node implementation, which retains compatibility 
+      with the Ethereum API and with the IPC actors.
+    buttons:
+      - label: GitHub
+        link: 'https://github.com/consensus-shipyard/fendermint'
+        type: primary
+      - label: Early demo
+        link: 'https://www.youtube.com/watch?v=rr9xVQ_sTeg'
+        type: primary       
+    navigationLabel: ''
+    _template: feature    
+  - style:
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
+      featureContent: 'w-full min-h-0 '
+      padding: 'pt-5 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: 'object-center object-contain '
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-4xl mb-7 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 text-base mb-5 '
+      contentOrder: labelHeadingsContent
     label: ''
     headline: Mir and Trantor
     subhead: ''
@@ -204,7 +222,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-10 pr-10 pl-5
+      padding: pt-10 pb-5 pr-10 pl-5
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
@@ -219,7 +237,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-10 pb-10 pr-5 pl-5
+      padding: pt-0 pb-15 pr-5 pl-5
       contentWidth: w-full
       columns: '4'
       labelStyles: 'text-black undefined text-xl mb-0 '
@@ -285,7 +303,7 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: pt-10 pb-10 pr-5 pl-5
+      padding: pt-20 pb-20 pr-5 pl-5
       contentWidth: w-full
       columns: '3'
       labelStyles: 'text-primary font-1 text-xl mb-0 '
