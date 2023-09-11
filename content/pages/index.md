@@ -195,7 +195,7 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-full min-h-0 '
-      padding: 'pt-20 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-10 pr-32 pl-5 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: 'object-center object-contain '
       imagePadding: pt-0 pb-0 pr-0 pl-0
       labelStyles: 'text-primary font-1 text-sm mb-0 '
@@ -228,7 +228,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-10 pr-10 pl-5
+      padding: pt-10 pb-20 pr-10 pl-5
       width: normal
       labelStyles: 'text-black font-1 text-sm mb-0 '
       headlineStyles: 'text-black font-1 text-5xl mb-0 '
